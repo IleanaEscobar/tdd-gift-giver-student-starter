@@ -10,21 +10,33 @@
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Isa Escobar",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^2.0.0-beta.1",
     "express": "^5.0.0-beta.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "jest": "^28.0.3",
-    "supertest": "^6.2.3",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
   },
   "jest": {
     "testEnvironment": "node",
     "testMatch": [
       "**/*.test.js"
     ]
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IleanaEscobar/tdd-gift-giver-student-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IleanaEscobar/tdd-gift-giver-student-starter/issues"
+  },
+  "homepage": "https://github.com/IleanaEscobar/tdd-gift-giver-student-starter#readme"
 }
